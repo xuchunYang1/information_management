@@ -1,3 +1,0 @@
-#include "msg.h"
-
-void read_data()
