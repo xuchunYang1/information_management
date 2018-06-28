@@ -1,0 +1,14 @@
+#pragma once
+#include <stdio.h>
+#include <stdlib.h>
+
+#define MYFILE "info"
+
+//保存链表到文件
+void save_list_toFile();
+
+//加载数据文件到链表
+void load_file_toList();
+
+
+

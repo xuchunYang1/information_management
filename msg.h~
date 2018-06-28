@@ -1,0 +1,11 @@
+#pragma once
+#include <stdio.h>
+
+typedef struct employee_info
+{
+	char *name[20];
+	uint8_t age;
+	char sex;
+	char *phone[11];
+	struct employee_info *next;
+}employee_info_t;
